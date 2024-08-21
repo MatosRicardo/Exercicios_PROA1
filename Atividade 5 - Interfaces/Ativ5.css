@@ -1,0 +1,118 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+main {
+  position: relative;
+  width: 80%;
+  height: auto;
+  margin: auto; /* espaço para fora da área*/
+}
+
+header {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#nav1 {
+  background-color: blue;
+  font-size: 30px;
+  color: white;
+  position: relative;
+}
+
+#nav2 {
+  background-color: bisque;
+  font-size: 30px;
+  color: white;
+  width: 25%;
+  height: 600px;
+  text-align: center;
+  float: left;
+  position: relative;
+}
+
+section {
+  background-color: pink;
+  height: 600px;
+  width: 50%;
+  color: white;
+  float: left;
+  text-align: center;
+  font-size: 30px;
+  position: relative;
+}
+
+#subtitulo {
+  background-color: white;
+  color: black;
+  width: 95%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: auto;
+  text-align: center;
+  position: relative;
+}
+
+#retangulo {
+  background-color: brown;
+  width: 95%;
+  height: 200px;
+  margin: auto;
+  margin-top: 10px;
+  position: relative;
+}
+
+p {
+  background-color: purple;
+  width: 95%;
+  margin: auto;
+  margin-top: 10px;
+  height: 150px;
+  text-align: left;
+  font-size: medium;
+  color: black;
+  position: relative;
+}
+
+#caixa1,
+#caixa2,
+#caixa3 {
+  width: 30%;
+  height: 120px;
+  background-color: gray;
+  color: rgb(255, 255, 255);
+  margin-left: 15px;
+  margin-top: 10px;
+  float: left;
+  position: relative;
+}
+
+aside {
+  background-color: rgb(255, 134, 154);
+  width: 25%;
+  height: 600px;
+  float: left;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  position: relative;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  width: 100%;
+  height: 50pxpx;
+  clear: left;
+  color: white;
+  position: relative;
+}

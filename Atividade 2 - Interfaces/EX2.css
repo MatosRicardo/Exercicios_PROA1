@@ -1,0 +1,78 @@
+#fundo,
+#top,
+#sessao,
+#sessao2,
+#artigo,
+#texto,
+#imagem,
+#rodape,
+.caixa {
+  position: relative;
+}
+
+#fundo {
+  width: 1000px;
+  height: auto;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+}
+
+#top {
+  width: 850px;
+  background-color: yellowgreen;
+  text-align: center;
+  padding: 30px;
+  clear: left;
+}
+
+#sessao {
+  background-color: aqua;
+  width: 350px;
+  height: 450px;
+  float: left;
+}
+
+.caixa {
+  width: 330px;
+  height: 200px;
+  left: 10px;
+  background-color: white;
+  clear: left;
+}
+
+#sessao2 {
+  float: left;
+  height: 450px;
+  background-color: blueviolet;
+  width: 560px;
+}
+
+#artigo {
+  left: 8px;
+  width: 545px;
+  height: 432px;
+  background-color: rgb(194, 187, 187);
+}
+h1 {
+  height: 20px;
+  margin: 0;
+  background-color: aquamarine;
+  text-align: center;
+}
+
+#texto {
+  background-color: salmon;
+  height: 160px;
+}
+
+#imagem {
+  background-color: violet;
+  height: 180px;
+}
+
+#rodape {
+  clear: left;
+  background-color: brown;
+  width: 910px;
+  height: 50px;
+}
